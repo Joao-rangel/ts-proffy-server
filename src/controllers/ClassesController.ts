@@ -1,4 +1,4 @@
-import {Request, Response} from 'express' /* importo para puxar as opções do express (pq ele não foi usado) */
+import { Request, Response } from 'express' /* importo para puxar as opções do express (pq ele não foi usado) */
 
 import db from '../database/connection';
 import convertHourToMinutes from '../utils/convertHourToMinutes';
