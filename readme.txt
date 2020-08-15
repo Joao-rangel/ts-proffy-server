@@ -8,7 +8,7 @@ $ yarn add typescript -D // instala ts apenas em desenvolvimento
 
 $ yarn tsc --init // criou arquivos de configuração
 
-$ yarn add ts-node-dev -D // intala dependencia que executa servidor e atualiza quando tem alteração
+$ yarn add ts-node-dev -D // intala dependencia que executa servidor e ATUALIZA SOZINHO quando tem alteração
 
 adicionou em: package.json:
 "scripts": {

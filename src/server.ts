@@ -4,7 +4,7 @@ import routes from './routes'
 
 const app = express() // declarou variavel app (aplicação) e chamou a função express
 
-app.use(cors)
+app.use(cors())
 app.use(express.json()) // fala ao ts para usar json
 app.use(routes)
 
